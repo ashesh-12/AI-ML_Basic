@@ -1,0 +1,294 @@
+Stage 1: Foundations
+1. Programming & Tools
+
+Python:
+
+Variables, data types, type conversion
+
+Lists, tuples, dictionaries, sets
+
+Loops (for, while), conditionals (if-else)
+
+Functions (def, lambda), scope
+
+List comprehensions
+
+Exception handling (try-except)
+
+Object-Oriented Programming (OOP): Classes, Inheritance, Encapsulation
+
+Time & datetime module usage
+
+
+Libraries & Tools:
+
+NumPy: arrays, broadcasting, indexing
+
+Pandas: Series, DataFrames, indexing, GroupBy, aggregation, datetime
+
+Matplotlib & Seaborn: basic & advanced plotting
+
+Scikit-learn: model building, evaluation, pipelines
+
+Jupyter Notebook: writing clean, interactive code
+
+Git & GitHub: version control
+
+Linux Basics: CLI commands, file system, bash
+
+
+Stage 2: Mathematics
+
+Statistics:
+
+Mean, median, mode, variance, standard deviation
+
+Probability basics, permutations & combinations
+
+Distributions: Normal, Binomial, Poisson
+
+Conditional Probability, Bayes' Theorem
+
+
+Linear Algebra:
+
+Scalars, vectors, matrices
+
+Matrix operations (dot product, transpose, inverse)
+
+Eigenvalues and eigenvectors
+
+
+Calculus:
+
+Derivatives and gradients
+
+Cost function and optimization intuition
+
+
+Probability Theory:
+
+Joint, marginal, conditional probability
+
+Bayes’ Theorem in ML (e.g., Naive Bayes)
+
+
+Stage 3: Data Handling & Visualization
+
+Data Preprocessing:
+
+Handling null values (drop, impute)
+
+Removing duplicates
+
+Detecting & handling outliers (Z-score, IQR)
+
+Data transformation: encoding (OneHot, Label), scaling (Standard, MinMax)
+
+
+Feature Engineering:
+
+Feature extraction and selection
+
+Creating new features from existing data
+
+Feature importance (based on models)
+
+
+Exploratory Data Analysis (EDA):
+
+Understanding distributions, relationships
+
+Correlation heatmaps
+
+GroupBy, aggregation, pivot tables
+
+Trend analysis, time-based grouping
+
+
+Visualization:
+
+Seaborn (pairplot, boxplot, heatmap, violinplot)
+
+Matplotlib (line, bar, pie, scatter)
+
+Plotly (interactive visualizations)
+
+
+Stage 4: Core Machine Learning
+
+1. Supervised Learning
+Regression:
+
+Linear Regression
+
+Ridge & Lasso Regression
+
+Polynomial Regression
+
+
+Classification:
+
+Logistic Regression
+
+K-Nearest Neighbors (KNN)
+
+Support Vector Machines (SVM)
+
+Decision Trees
+
+Random Forest
+
+Gradient Boosting, XGBoost, LightGBM
+
+
+Ensemble Learning:
+
+Bagging vs Boosting
+
+Voting Classifier
+
+Stacking Models
+
+
+Hyperparameter Tuning:
+
+GridSearchCV, RandomizedSearchCV
+
+Parameter tuning for different models
+
+
+Imbalanced Datasets:
+
+SMOTE, undersampling, oversampling
+
+Using class weights
+
+
+2. Unsupervised Learning
+K-Means Clustering
+
+Hierarchical Clustering
+
+DBSCAN
+
+Principal Component Analysis (PCA)
+
+t-SNE and UMAP for visualization
+
+
+3. Model Evaluation
+Metrics:
+
+Regression: MAE, MSE, RMSE, R²
+
+Classification: Accuracy, Precision, Recall, F1-score, ROC-AUC
+
+Confusion Matrix
+
+
+Techniques:
+
+Cross-validation (K-Fold, Stratified)
+
+Train-test split
+
+Overfitting vs Underfitting
+
+Bias-variance tradeoff
+
+
+Model Interpretability:
+
+SHAP values
+
+LIME
+
+Feature importance (based on trees or coefficients)
+
+
+Stage 5: Advanced Topics
+1. Feature Engineering & Selection
+Recursive Feature Elimination (RFE)
+
+SelectKBest, mutual information
+
+Feature scaling and normalization
+
+
+2. Time Series Analysis
+Stationarity, trend, seasonality
+
+Autocorrelation, Partial Autocorrelation
+
+ARIMA, SARIMA
+
+LSTM basics for time series
+
+
+3. Natural Language Processing (NLP)
+Text cleaning (lowercasing, stopword removal, stemming, lemmatization)
+
+Tokenization
+
+Vectorization (Bag of Words, TF-IDF, Word2Vec)
+
+Sentiment analysis
+
+Intro to transformers, Hugging Face, and BERT
+
+
+4. Deep Learning
+Neural Networks: perceptrons, forward/backpropagation
+
+CNNs: image data
+
+RNNs, LSTMs: sequential/time-series data
+
+Libraries: TensorFlow, Keras, PyTorch (basics)
+
+
+5. Prompt Engineering (for LLMs)
+Basic prompt structuring
+
+Few-shot examples
+
+Role prompting
+
+Token limitations
+
+
+Stage 6: Real-World Projects & Deployment
+Capstone Projects:
+
+Kaggle competitions
+
+UCI datasets
+
+Personal projects with GitHub repo + README + notebook
+
+Deployment:
+
+Flask or FastAPI to serve ML models
+
+Docker: containerize ML apps
+
+Cloud: Deploy on AWS, GCP, or Azure (free tiers)
+
+Streamlit or Gradio for fast UI demos
+
+Experiment Tracking & Versioning:
+
+MLflow
+
+Weights & Biases
+
+DVC (Data Version Control)
+
+Testing & Monitoring:
+
+API testing with Postman
+
+CI/CD basics
+
+Monitoring models in production (conceptual)
